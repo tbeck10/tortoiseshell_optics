@@ -79,3 +79,25 @@ nav ul li {
   font-size: 2rem;
   line-height: 1.2;
 }
+
+/* Highlights */
+
+.highlights {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.service {
+  height: 8rem;
+  margin: 0 3rem;
+}
+
+.service img {
+  width: 5rem;
+}
+
+.service img .paper {
+  width: 3.5rem;
+}
