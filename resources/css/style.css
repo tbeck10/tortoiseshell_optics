@@ -1,0 +1,51 @@
+/* Universal Styles */
+
+html,
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  background-color: white;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+/* Header */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  color: white;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  padding-left: 2rem;
+}
