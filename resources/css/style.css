@@ -20,16 +20,24 @@ div {
 
 /* Header */
 
-header .container {
+header {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: cadetblue;
   padding: 1rem 2rem;
-  margin-top: 1rem;
 }
 
-header .logo {
+.logo {
   display: flex;
   align-items: center;
 }
@@ -48,4 +56,26 @@ nav ul li {
   display: inline;
   color: white;
   padding-left: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tagline {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  margin-right: -2rem;
+}
+
+.tagline h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
 }
