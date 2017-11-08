@@ -84,20 +84,67 @@ nav ul li {
 
 .highlights {
   display: flex;
-  align-items: baseline;
   justify-content: center;
-  padding: 3rem 0;
 }
 
 .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   height: 8rem;
-  margin: 0 3rem;
+  width: 5rem;
+  margin: 3rem
 }
 
 .service img {
   width: 5rem;
 }
 
-.service img .paper {
+.service .paper {
   width: 3.5rem;
+}
+
+/* Information */
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 2.5rem;
+}
+
+.column-header {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+footer .container img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
